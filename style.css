@@ -1,0 +1,419 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202020;
+    background-color: #3D3637;
+}
+.btn-ant {
+    display: inline-block;
+    margin-top: 16px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+footer h1 {
+    font-size: 22px;
+    display: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+.slider {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imgs/inicio.jpg);
+    background-position: center 0%;
+    background-size: cover;
+    padding-top: 0px;
+    position: relative;
+}
+.historia {
+    width: 100%;
+    height: 100vh;
+    background-image: url(Imgs/choco-bola.jpg);
+    background-position: center 0%;
+    background-size: cover;
+    padding-top: 0px;
+    position: relative;
+}
+.menta {
+    width: 100%;
+    height: 100vh;
+    background-position: center 0%;
+    background-size: cover;
+    padding-top: 0px;
+    position: relative;
+    background-image: url(Imgs/menta.jpg);
+}
+.durazno {
+    width: 100%;
+    height: 100vh;
+    background-position: center 0%;
+    background-size: cover;
+    padding-top: 0px;
+    position: relative;
+    background-image: url(Imgs/durazno.jpg);
+}
+.chocolate {
+    width: 100%;
+    height: 100vh;
+    background-position: center 0%;
+    background-size: cover;
+    padding-top: 0px;
+    position: relative;
+    background-image: url(Imgs/chocolate.jpg);
+}
+.fresa {
+    width: 100%;
+    height: 100vh;
+    background-position: center 0%;
+    background-size: cover;
+    padding-top: 0px;
+    position: relative;
+    background-image: url(Imgs/fresas.jpg);
+}
+
+.balazo {
+    width: 80%;
+    margin-left: 32px;
+    height: auto;
+    bottom: 50px;
+    position: absolute;
+}
+.boton {
+    width: 140px;
+    height: 56px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    background-color: #30BCC9;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+.btn-ant a {
+    background-color: rgba(0,0,0,0.00);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgba(255,255,255,1.00);
+    text-decoration: none;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+}
+.btn-ant a:hover  {
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgba(255,255,255,1.00);
+    text-decoration: none;
+}
+.btn-sig a  {
+    background-color: rgba(0,0,0,0.00);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgba(255,255,255,1.00);
+    text-decoration: none;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    margin-left: 16px;
+}
+.btn-sig a:hover   {
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    background-color: rgba(0,0,0,0.50);
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgba(255,255,255,1.00);
+    text-decoration: none;
+    margin-left: 16px;
+}
+.boton a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.balazo p {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 21px;
+}
+header {
+    width: 100%;
+    height: 100px;
+    color: #FFFFFF;
+    position: fixed;
+    z-index: 1;
+    padding-top: 32px;
+    padding-left: 32px;
+}
+
+.logo {
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    background-image: url(Imgs/logo.png);
+    background-size: 150px auto;
+    background-repeat: no-repeat;
+    right: 32px;
+}
+
+.btn-sig {
+    display: inline-block;
+    margin-top: 0px;
+
+}
+footer {
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    width: 100%;
+    height: 100vh;
+}
+footer ul {
+    margin-top: 32px;
+}
+footer li {
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.col-01 {
+    width: 100%;
+    margin-top: 30%;
+}
+.col-02 {
+    width: 100%;
+    float: left;
+}
+.redes {
+    width: 50px;
+    height: 50px;
+    background-size: 50px auto;
+    background-repeat: no-repeat;
+    margin-top: 32px;
+    display: inline-block;
+    margin-right: 32px;
+}
+#btn-menu {
+    display: none;
+}
+header label {
+    cursor: pointer;
+}
+#btn-menu:checked ~ .menu {
+    margin-left: -32px;
+}
+
+label img {
+
+}
+.menu {
+    position: absolute;
+    width: 70%;
+    background-color: rgba(0,0,0,0.80);
+    margin-top: 32px;
+    margin-left: -100%;
+    transition: all 0.5s;
+}
+.menu ul {
+    display: flex;
+    flex-direction: column;
+}
+.menu li {
+    height: 50px;
+}
+.menu li a {
+    display: block;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: rgba(255,255,255,1.00);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-top: 2px solid rgba(255,255,255,1.00);
+}
+.menu li a:hover {
+    color: #84BF04;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+footer {
+    height: 100%;
+}
+footer h1 {
+    display: block;
+}
+.col-01 {
+    width: 30%;
+    margin-top: 0px;
+    float: left;
+}
+.col-02 {
+    float: left;
+    width: 25%;
+}
+.balazo {
+    width: 50%;
+}
+.balazo p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+}
+
+@media (min-width: 1024px){
+.logo {
+    left: 32px;
+}
+header label {
+    display: none;
+}
+.menu {
+    position: absolute;
+    background-color: rgba(217,31,34,0.00);
+    width: 95%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.menu li a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    border-top-width: 0px;
+    border-top-style: none;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+
+
+}
